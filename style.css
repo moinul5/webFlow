@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* font */
+
+.roboto-normal {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.roboto-heavy {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* shared Style */
+.btn-primary {
+  background-color: #4e47ff;
+  color: white;
+  padding: 12px 36px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 400;
+}
+
+/* Nav style */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 150px;
+}
+
+.logo {
+  color: #4e47ff;
+  font-size: 34px;
+}
+
+button:hover {
+  background-color: #3a3aeb;
+  font-weight: 600;
+}
+
+/* banner */
+.banner {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 200px 267px 0 267px;
+}
+
+.banner-title {
+  display: flex;
+  font-size: 65px;
+  text-align: center;
+  margin-bottom: 37px;
+  color: #252432;
+}
+
+/* background image */
+header {
+  background-image: url(./B12A01-landing-launchpad/Assets/Hero-bg.png);
+  height: 698px;
+  width: 100%;
+}
