@@ -227,3 +227,54 @@ main{
   border-radius: 20px;
   max-width: 840px;
 }
+
+
+/* contact section */
+
+.contact-section {
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.contact-text h1 {
+  font-size: 97px;
+  font-weight: bold;
+  color: #000;
+}
+
+.contact-form {
+  width: 490px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 6px;
+  font-size: 20px;
+  color: #222;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 14px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 20px;
+  outline: none;
+}
+
+.contact-form textarea {
+  min-height: 120px;
+}
+
+
+
